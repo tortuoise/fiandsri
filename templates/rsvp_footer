@@ -1,0 +1,71 @@
+{{define "footer"}}
+        <div class="ribbon custom-footer">
+                <div class="top"></div>
+                <div class="pivot">
+	                <ul class="center">
+	                        <li class="cell">
+                                        <div class="form-inline">
+                                                <form id="guestrsvp" name="guestrsvp" action="/rsvp" method="POST">
+                                                        <ul class="center">
+                                                                <li class="cell">
+                                                                        <div class="field">
+                                                                                <label>Name:</label>
+                                                                                <input type="text" value="" name="fullname" style="width=100px;">
+                                                                        </div>
+                                                                        <div class="field">
+                                                                                <label>E-Mail Address:</label>
+                                                                                <input type="text" value="" name="email" style="width=100px;">
+                                                                        </div>
+                                                                </li>
+                                                                <li class="cell">
+                                                                        <div class="field">
+                                                                                <label><span class="required">*</span>RSVP</label>
+                                                                                <input type="radio" checked="checked" value="true" name="party">
+                                                                                We'll be there &nbsp;&nbsp;
+                                                                                <input type="radio" value="false" name="party">
+                                                                                Sorry can't make it &nbsp;&nbsp;                       
+                                                                        </div>
+                                                                        <div class="field">
+                                                                                <label>Special Requirements:</label>
+                                                                                <input type="text" value="" style="width:100px;" name="special">
+                                                                        </div>
+                                                                </li>
+                                                                <li class="cell">
+                                                                        <div class="field">
+                                                                                <label># of Guests:</label>
+                                                                                <input type="text" value="" style="width:20px;" name="group">
+                                                                        </div>
+                                                                        <div class="field">
+                                                                                <input type="submit" value="RSVP" class="button button-alt">
+                                                                        </div>
+                                                                </li>
+                                                        </ul>
+                                                </form>
+                                        </div>
+                                </li>
+                        </ul>
+                </div>
+        </div>
+
+        <div class="pivot" style="background-color: #FFFFFF;">
+                <footer>
+                        <div class="column first">
+                                <h3><a href="/venue">Venue</a></h3>
+                        </div>
+                        <div class="column">
+                                <h3><a href="/schedule">Schedule</a></h3>
+                        </div>
+                        <div class="column">
+                                <h3><a href="/rsvp">RSVP</a></h3>
+                        </div>
+                        <div class="column last">
+                                <h3><a href="/acc">Accomodation</a></h3>
+                        </div>
+                </footer>
+                <div id="copyright">
+                        <div class="float-right"> Fi & Sri </div>
+                        Copyright &#169; Fi & Sri. All Rights Reserved.
+                        <div class="clear"></div>
+                </div>
+        </div> 
+{{end}}

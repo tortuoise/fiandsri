@@ -1,0 +1,28 @@
+{{define "body"}}
+<body>
+        <div class="page">
+                <div class="pivot" style="background-color: #FFFFFF;">
+                        <header id="header" style="background-color: #FFFFFF;">
+                                <div id="logo"> <!--logo-->
+                                        <h1>Fi & Sri</h1>
+                                </div> <!--logo -->
+                                <br>
+                        </header>
+                        <nav class="nav hide-phone">
+                                <ul>
+                                        <li class="tftooltip" title="Home"><a href="/"><span class="icon"></span></a></li>
+                                        {{template "menu" .}}
+                                </ul>
+                                <div class="clear"></div>
+                        </nav>
+                </div>
+                <div id="content" style="font-size:20px; height:250px">
+
+                        <p> {{.Message}} </p>
+
+                </div>
+
+        {{template "footer" .}}
+        </div>
+</body>
+{{end}}

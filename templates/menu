@@ -1,0 +1,17 @@
+{{define "menu"}}
+        <li>
+                <a href="/venue">Venue</a>
+        </li>
+        <li>
+                <a href="/schedule">Schedule</a>
+        </li>
+        <li>
+                <a href="/rsvp">RSVP</a>
+        </li>
+        <li>
+                <a href="/accommodation">Accommodation</a>
+        </li>
+        <li>
+                <a href="/directions">Directions</a>
+        </li>
+{{end}}

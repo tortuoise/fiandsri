@@ -1,0 +1,4 @@
+cron:
+- description: generate calendar images
+  url: /calupdate
+  schedule: every 6 hours

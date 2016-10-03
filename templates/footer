@@ -1,0 +1,47 @@
+{{define "footer"}}
+    <div class="ribbon custom-footer">
+      <div class="top"></div>
+      <div class="pivot">
+	<ul class="center">
+	  <li class="cell">
+	    <p>
+	      <span id="cke_bm_55S" style="display: none;">&nbsp;</span><span style="display: none;">&nbsp;</span></p>
+	      <h3>Fi & Sri wedding </h3>
+	    <p>
+	    <span style="font-family:tahoma,geneva,sans-serif;"> 02/11/2016 </span></p>
+	    <p>
+	    <p>
+	    <span style="display: none;">&nbsp;</span><span id="cke_bm_55E" style="display: none;">&nbsp;</span></p>
+	  </li>
+	  <li class="cell">
+	    <div class="social_fix">&nbsp;</div>
+	    <div class="social">
+                              <h2>  <b> {{.Message}} </b> </h2>
+	    </div>
+	  </li>
+	</ul>
+      </div>
+    </div>
+
+    <div class="pivot" style="background-color: #FFFFFF;">
+      <footer>
+	<div class="column first">
+	  <h3><a href="/venue">Venue</a></h3>
+	</div>
+	<div class="column">
+	  <h3><a href="/schedule">Schedule</a></h3>
+	</div>
+	<div class="column">
+	  <h3><a href="/rsvp">RSVP</a></h3>
+	</div>
+	<div class="column last">
+	  <h3><a href="/acc">Accomodation</a></h3>
+	</div>
+      </footer>
+      <div id="copyright">
+	<div class="float-right"> Fi & Sri </div>
+          Copyright &#169; Fi & Sri. All Rights Reserved.
+	<div class="clear"></div>
+      </div>
+    </div> 
+{{end}}
